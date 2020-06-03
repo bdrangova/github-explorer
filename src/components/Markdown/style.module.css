@@ -1,0 +1,57 @@
+.readmeWrapper {
+  padding: 1rem 2rem;
+}
+
+.readme {
+  padding: 1rem 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.readme a {
+  text-decoration: none;
+  color: #3f51b5;
+}
+
+.readme code {
+  padding: 0.2em 0.2em;
+  margin: 0;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+  font-family: Consolas, monospace;
+  font-size: 85%;
+}
+
+.readme pre {
+  padding: 0.3em 0.5em;
+  margin: 0;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+}
+
+.readme pre code {
+  font-family: Consolas, monospace;
+  font-size: 85%;
+}
+
+.readme :nth-child(1n + 19) {
+  display: none;
+}
+
+.readme p,
+li {
+  padding-bottom: 1rem;
+}
+
+.readme table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.readme table tr {
+  border-top: 1px solid #c6cbd1;
+}
+
+.readme table td {
+  padding: 1rem;
+  border: 1px solid #c6cbd1;
+}

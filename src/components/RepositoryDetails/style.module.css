@@ -1,0 +1,12 @@
+.container {
+  margin-top: 2rem;
+}
+
+.typography {
+  display: flex;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}

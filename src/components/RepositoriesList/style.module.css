@@ -1,0 +1,49 @@
+.container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.card {
+  height: 100%;
+}
+
+.title {
+  width: 100%;
+}
+
+.owner {
+  font-style: italic;
+}
+
+.typography {
+  display: flex;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star {
+  color: #d4d400;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  min-height: 614.75px;
+  align-items: center;
+}

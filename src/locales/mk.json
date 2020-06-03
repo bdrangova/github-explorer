@@ -1,0 +1,11 @@
+{
+  "search.github.placeholder": "Пребарај ",
+  "login": "Најава",
+  "logout": "Одјава",
+  "updated.on": "Ажурирано на {date} во {time}",
+  "seconds": "секунди",
+  "error.noResults": "Не постојат резултати за пребараниот збор.",
+  "error.networkError": "Грешка. Пробајте повторно подоцна.",
+  "error.noReadme": "Овој репозиториум нема README документ.",
+  "error.unauthorized": "Вашиот токен беше отповикан. Ве молиме најавите се повторно."
+}

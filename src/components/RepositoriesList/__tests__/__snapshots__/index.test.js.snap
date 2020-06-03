@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repositories List repositories list snapshot 1`] = `
+<div>
+  <div
+    class="MuiContainer-root container MuiContainer-maxWidthLg"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-1 box"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-2 box"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeSmall"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6z"
+          />
+        </svg>
+        <span
+          class="MuiTypography-root MuiTypography-caption"
+        >
+          0.45
+           
+          seconds
+        </span>
+      </div>
+      <div
+        aria-label="contained primary button group"
+        class="MuiButtonGroup-root MuiButtonGroup-contained"
+        role="group"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedContained MuiButtonGroup-groupedContainedHorizontal MuiButtonGroup-groupedContained Mui-disabled Mui-disabled"
+          data-testid="set-grid-btn"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedContained MuiButtonGroup-groupedContainedHorizontal MuiButtonGroup-groupedContained"
+          data-testid="set-list-btn"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root grid MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-justify-xs-space-between"
+      data-testid="results-display"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <button
+            class="MuiButtonBase-root MuiCardActionArea-root card"
+            tabindex="0"
+            type="button"
+          >
+            <a
+              href="/repos/facebook/react"
+              style="text-decoration: none;"
+            >
+              <div
+                class="MuiCardContent-root"
+              >
+                <div
+                  class="stats"
+                >
+                  <h6
+                    class="MuiTypography-root owner MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                    data-testid="owner-name"
+                  >
+                    facebook
+                  </h6>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-colorPrimary"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                    />
+                  </svg>
+                </div>
+                <h2
+                  class="MuiTypography-root title MuiTypography-h6 MuiTypography-noWrap"
+                  data-testid="repo-name"
+                >
+                  react
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap MuiTypography-gutterBottom"
+                >
+                  Library for building UIs
+                </p>
+                <div
+                  class="stats"
+                >
+                  <h6
+                    class="MuiTypography-root typography MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-colorPrimary"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    150K
+                  </h6>
+                  <h6
+                    class="MuiTypography-root typography MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-colorPrimary"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"
+                      />
+                    </svg>
+                    JavaScript
+                  </h6>
+                </div>
+                <h6
+                  class="MuiTypography-root pos MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                >
+                  Updated on Invalid Date at Invalid Date
+                </h6>
+              </div>
+            </a>
+            <span
+              class="MuiCardActionArea-focusHighlight"
+            />
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <button
+            class="MuiButtonBase-root MuiCardActionArea-root card"
+            tabindex="0"
+            type="button"
+          >
+            <a
+              href="/repos/vuejs/vue"
+              style="text-decoration: none;"
+            >
+              <div
+                class="MuiCardContent-root"
+              >
+                <div
+                  class="stats"
+                >
+                  <h6
+                    class="MuiTypography-root owner MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                    data-testid="owner-name"
+                  >
+                    vuejs
+                  </h6>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-colorPrimary"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                    />
+                  </svg>
+                </div>
+                <h2
+                  class="MuiTypography-root title MuiTypography-h6 MuiTypography-noWrap"
+                  data-testid="repo-name"
+                >
+                  vue
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap MuiTypography-gutterBottom"
+                >
+                  Progressive framework
+                </p>
+                <div
+                  class="stats"
+                >
+                  <h6
+                    class="MuiTypography-root typography MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-colorPrimary"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    16K
+                  </h6>
+                  <h6
+                    class="MuiTypography-root typography MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-colorPrimary"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"
+                      />
+                    </svg>
+                    JavaScript
+                  </h6>
+                </div>
+                <h6
+                  class="MuiTypography-root pos MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+                >
+                  Updated on Invalid Date at Invalid Date
+                </h6>
+              </div>
+            </a>
+            <span
+              class="MuiCardActionArea-focusHighlight"
+            />
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-3 container"
+    >
+      <nav
+        aria-label="pagination navigation"
+        class="MuiPagination-root"
+      >
+        <ul
+          class="MuiPagination-ul"
+        >
+          <li>
+            <button
+              aria-label="Go to previous page"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiPaginationItem-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <button
+              aria-current="true"
+              aria-label="page 1"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary Mui-selected"
+              tabindex="0"
+              type="button"
+            >
+              1
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </li>
+          <li>
+            <button
+              aria-label="Go to next page"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiPaginationItem-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;

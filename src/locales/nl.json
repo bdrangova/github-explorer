@@ -1,0 +1,11 @@
+{
+  "search.github.placeholder": "Search Github ...",
+  "login": "Login",
+  "logout": "Logout",
+  "updated.on": "Updated on {date} at {time}",
+  "seconds": "seconds",
+  "error.noResults": "No results for this query. Please try again.",
+  "error.networkError": "Something went wrong. Please try again later.",
+  "error.noReadme": "This repository has no readme.",
+  "error.unauthorized": "Your token has been revoked. Please login to get authorized again."
+}
