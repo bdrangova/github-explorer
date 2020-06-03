@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": ["prettier"],
+  "plugins": ["prettier", "jest-dom"],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./config/webpack.common.js"
+      }
+    }
+  },
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          "@material-ui/*/*/*",
+          "!@material-ui/core/test-utils/*"
+        ]
+      }
+    ],
+    "prettier/prettier": ["warn"],
+    "import/no-extraneous-dependencies": 0,
+    "react/jsx-one-expression-per-line": "off",
+    "react/button-has-type": "off",
+    "react/prop-types": "off",
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-undef": "warn",
+    "no-multi-assign": "off",
+    "no-param-reassign": "off"
+  }
+}
