@@ -1,11 +1,11 @@
 {
-  "search.github.placeholder": "Search Github ...",
-  "login": "Login",
-  "logout": "Logout",
-  "updated.on": "Updated on {date} at {time}",
-  "seconds": "seconds",
-  "error.noResults": "No results for this query. Please try again.",
-  "error.networkError": "Something went wrong. Please try again later.",
-  "error.noReadme": "This repository has no readme.",
-  "error.unauthorized": "Your token has been revoked. Please login to get authorized again."
+  "search.github.placeholder": "Zoek Github ...",
+  "login": "Inloggen",
+  "logout": "Uitloggen",
+  "updated.on": "Bijgewerkt op {date} om {time}",
+  "seconds": "seconden",
+  "error.noResults": "Geen resultaten voor deze zoekopdracht. Probeer het alstublieft opnieuw.",
+  "error.networkError": "Er is iets fout gegaan. Probeer het later opnieuw.",
+  "error.noReadme": "Deze repository heeft geen readme.",
+  "error.unauthorized": "Je token is ingetrokken. Log in om opnieuw geautoriseerd te worden."
 }
