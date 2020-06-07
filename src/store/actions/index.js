@@ -31,7 +31,7 @@ const error = ({ error, message, duration }) => ({
   },
 });
 
-const search = (query, token) => {
+const search = (query, token, signal) => {
   const updateQuery = (query) => ({
     type: UPDATE_QUERY,
     payload: query,
@@ -51,7 +51,7 @@ const search = (query, token) => {
   return (dispatch) => {
     dispatch(updateQuery(query));
     dispatch(loading());
-    return GithubService.searchRepos(1, query, token)
+    return GithubService.searchRepos(1, query, token, signal)
       .then((response) => {
         if (response.status === 'ok') {
           dispatch(storeRepos(response.results.items));
@@ -73,6 +73,7 @@ const search = (query, token) => {
         }
       })
       .catch((response) => {
+        if (response.name === 'AbortError') return;
         dispatch(
           error({
             error: response,
@@ -80,11 +81,6 @@ const search = (query, token) => {
             duration: 0,
           }),
         );
-        return {
-          error: response,
-          message: response.message,
-          duration: 0,
-        };
       });
   };
 };

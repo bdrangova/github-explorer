@@ -19,12 +19,18 @@ const getFetchDurationTimestamp = (url) => {
   return timing[timing.length - 1].duration / 1000;
 };
 
-const fetchData = async (pathname, token, query = '') => {
+const fetchData = async (
+  pathname,
+  token,
+  query = '',
+  signal = null,
+) => {
   const url = `${BASE_URL}${pathname}${query}`;
 
-  let options = {};
+  let options = { signal };
   if (token) {
     options = {
+      signal,
       method: 'GET',
       headers: {
         Authorization: `bearer ${token}`,
@@ -60,9 +66,9 @@ const fetchData = async (pathname, token, query = '') => {
   }
 };
 
-const searchRepos = async (page, query, token) => {
+const searchRepos = async (page, query, token, signal = null) => {
   const pathname = buildPathname(page, query);
-  return fetchData(pathname, token);
+  return fetchData(pathname, token, '', signal);
 };
 
 const getRepo = async (pathname, token) => {

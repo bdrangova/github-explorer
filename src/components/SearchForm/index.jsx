@@ -21,6 +21,9 @@ const SearchForm = ({
   handleChange,
   handleBlur,
   handleSubmit,
+  setSubmitting,
+  AutoSubmit,
+  submitForm,
 }) => {
   const intl = useIntl();
   return (
@@ -48,6 +51,11 @@ const SearchForm = ({
               </InputAdornment>
             ),
           }}
+        />
+        <AutoSubmit
+          values={values}
+          setSubmitting={setSubmitting}
+          submitForm={submitForm}
         />
       </form>
     </Container>

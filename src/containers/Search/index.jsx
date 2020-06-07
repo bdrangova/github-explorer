@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Formik } from 'formik';
 import { connect } from 'react-redux';
@@ -13,8 +13,25 @@ const SearchContainer = ({ query, dispatch }) => {
     if (!values.search) {
       errors.search = 'Please enter a query';
     }
-
     return errors;
+  };
+
+  const AutoSubmit = ({ values, submitForm, setSubmitting }) => {
+    const controller = new AbortController();
+    const { signal } = controller;
+
+    useEffect(() => {
+      submitForm(values, setSubmitting, signal);
+      return () => controller.abort();
+    }, [values]);
+    return null;
+  };
+
+  const submitForm = (values, setSubmitting, signal) => {
+    if (values.search.length > 0) {
+      dispatch(search(values.search, token, signal));
+      setSubmitting(false);
+    }
   };
   return (
     <Formik
@@ -22,10 +39,9 @@ const SearchContainer = ({ query, dispatch }) => {
       validateOnChange={true}
       validateOnBlur={false}
       initialValues={{ search: query }}
-      onSubmit={async (values, { setSubmitting }) => {
-        dispatch(search(values.search, token));
-        setSubmitting(false);
-      }}
+      onSubmit={async (values, { setSubmitting }) =>
+        submitForm(values, setSubmitting)
+      }
     >
       {({
         values,
@@ -33,13 +49,18 @@ const SearchContainer = ({ query, dispatch }) => {
         handleChange,
         handleBlur,
         handleSubmit,
+        setSubmitting,
       }) => (
         <SearchForm
           values={values}
           errors={errors}
+          submitForm={submitForm}
           handleChange={handleChange}
           handleBlur={handleBlur}
           handleSubmit={handleSubmit}
+          AutoSubmit={AutoSubmit}
+          setSubmitting={setSubmitting}
+          submitForm={submitForm}
         />
       )}
     </Formik>
