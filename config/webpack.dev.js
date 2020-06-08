@@ -3,7 +3,7 @@ const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   mode: 'development',
-  devtool: 'inline-module-source-map',
+  devtool: 'source-map',
   devServer: {
     contentBase: './build',
     hot: true,
