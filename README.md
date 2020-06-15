@@ -46,3 +46,15 @@ yarn test:e2e:dev
 # open cypress app
 yarn cy:open
 ```
+
+#### To improve
+
+- Code splitting
+  - first page: all the components for the result can be lazy loaded
+  - route code splitting
+  - locales
+- UI
+  - theming
+  - extra functionalities
+- State managment
+  - modular
