@@ -58,3 +58,4 @@ yarn cy:open
   - extra functionalities
 - State managment
   - modular
+  - mapping the whole state in RepoContainer -> move logic elsewhere in a function to decide whether to just update pager or call fetch, in component detect when page has been updated to rerender component
